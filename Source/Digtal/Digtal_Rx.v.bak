@@ -1,0 +1,14 @@
+module Digtal_Rx	(
+	input 			Baud16X,							//16倍波特率输入
+	input 			Rx,								//数据输入
+	output			RD,								//数据输出时钟
+	output [7:0]	Data								//数据输出
+);
+
+
+
+
+
+
+
+endmodule

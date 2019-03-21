@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CYCLONE_IV-Template">
+		<CBX_INST_ENTRY INSTANCE_NAME="|TOP|Analog_TOP:inst|Analog_Configer_Read:Configer_Inst|ROM_Analog:Analog_ROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_m4a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TOP|Digtal_TOP_256Byte:inst2|Buffer_256Byte:Buffer_Inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_qcq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TOP|Digtal_TOP_512Byte:inst3|Buffer_512Byte:Buffer_Inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_icq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TOP|Encoder_TOP:inst1|Encoder_Configer_Read:Configer_Inst|ROM_Encoder:Encoder_ROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_o9a1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

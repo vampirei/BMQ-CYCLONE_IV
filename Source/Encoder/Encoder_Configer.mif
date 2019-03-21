@@ -1,0 +1,154 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=16;
+DEPTH=128;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=UNS;
+
+CONTENT BEGIN
+	0	:	12311	;
+	1	:	12311	;
+	2	:	12311	;
+	3	:	12311	;
+	4	:	12311	;
+	5	:	12311	;
+	6	:	12311	;
+	7	:	12311	;
+	8	:	12311	;
+	9	:	12311	;
+	10	:	12311	;
+	11	:	12311	;
+	12	:	12311	;
+	13	:	12311	;
+	14	:	12311	;
+	15	:	12311	;
+	16	:	12311	;
+	17	:	12311	;
+	18	:	12311	;
+	19	:	12311	;
+	20	:	12327	;
+	21	:	12327	;
+	22	:	12327	;
+	23	:	12327	;
+	24	:	12327	;
+	25	:	12327	;
+	26	:	12327	;
+	27	:	12327	;
+	28	:	12327	;
+	29	:	12327	;
+	30	:	12327	;
+	31	:	12327	;
+	32	:	12327	;
+	33	:	12327	;
+	34	:	12327	;
+	35	:	12327	;
+	36	:	12327	;
+	37	:	12327	;
+	38	:	12327	;
+	39	:	12327	;
+	40	:	12327	;
+	41	:	12327	;
+	42	:	12327	;
+	43	:	12327	;
+	44	:	12327	;
+	45	:	12327	;
+	46	:	12327	;
+	47	:	12327	;
+	48	:	12327	;
+	49	:	12327	;
+	50	:	12327	;
+	51	:	12327	;
+	52	:	12327	;
+	53	:	12327	;
+	54	:	12327	;
+	55	:	12327	;
+	56	:	12327	;
+	57	:	12359	;
+	58	:	12359	;
+	59	:	12359	;
+	60	:	12359	;
+	61	:	12359	;
+	62	:	12423	;
+	63	:	12423	;
+	64	:	12423	;
+	65	:	12423	;
+	66	:	12423	;
+	67	:	12423	;
+	68	:	12423	;
+	69	:	12423	;
+	70	:	12551	;
+	71	:	12551	;
+	72	:	12551	;
+	73	:	12551	;
+	74	:	12551	;
+	75	:	12551	;
+	76	:	12551	;
+	77	:	12551	;
+	78	:	12551	;
+	79	:	12551	;
+	80	:	12551	;
+	81	:	12551	;
+	82	:	12551	;
+	83	:	12551	;
+	84	:	12551	;
+	85	:	12551	;
+	86	:	12551	;
+	87	:	12551	;
+	88	:	12551	;
+	89	:	12551	;
+	90	:	12551	;
+	91	:	12551	;
+	92	:	12551	;
+	93	:	12551	;
+	94	:	12551	;
+	95	:	12551	;
+	96	:	12551	;
+	97	:	12551	;
+	98	:	12551	;
+	99	:	12551	;
+	100	:	12551	;
+	101	:	12551	;
+	102	:	12551	;
+	103	:	12551	;
+	104	:	12551	;
+	105	:	12551	;
+	106	:	12551	;
+	107	:	12551	;
+	108	:	12807	;
+	109	:	12807	;
+	110	:	12807	;
+	111	:	12807	;
+	112	:	12807	;
+	113	:	12807	;
+	114	:	12807	;
+	115	:	12807	;
+	116	:	8199	;
+	117	:	8343	;
+	118	:	8423	;
+	119	:	8439	;
+	120	:	8359	;
+	121	:	8375	;
+	122	:	8391	;
+	123	:	8407	;
+	124	:	24535	;
+	125	:	23319	;
+	126	:	22615	;
+	127	:	21511	;
+
+
+END;

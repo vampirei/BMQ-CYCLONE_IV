@@ -1,0 +1,164 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EP4CE15F17I7 Package FBGA256
+// 
+
+//
+// This file contains Slow Corner delays for the design using part EP4CE15F17I7,
+// with speed grade 7, core voltage 1.2V, and temperature 100 Celsius
+//
+
+// 
+// This SDF file should be used for ModelSim-Altera (Verilog) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "TOP")
+  (DATE "03/21/2019 16:29:32")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II 64-Bit")
+  (VERSION "Version 13.0.0 Build 156 04/24/2013 SJ Full Version")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE RD_ADC\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (2775:2775:2775) (3019:3019:3019))
+        (IOPATH i o (3114:3114:3114) (3070:3070:3070))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE ADD_ADG\[3\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (575:575:575) (537:537:537))
+        (IOPATH i o (2997:2997:2997) (2911:2911:2911))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE ADD_ADG\[2\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (572:572:572) (534:534:534))
+        (IOPATH i o (2987:2987:2987) (2901:2901:2901))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE ADD_ADG\[1\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (881:881:881) (837:837:837))
+        (IOPATH i o (3007:3007:3007) (2921:2921:2921))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE ADD_ADG\[0\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (896:896:896) (846:846:846))
+        (IOPATH i o (3017:3017:3017) (2931:2931:2931))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_ibuf")
+    (INSTANCE EOC_ADC\~input)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (632:632:632) (742:742:742))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_ram_register")
+    (INSTANCE inst\|Configer_Inst\|Analog_ROM\|altsyncram_component\|auto_generated\|ram_block1a4.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (787:787:787) (787:787:787))
+        (PORT clk (979:979:979) (1003:1003:1003))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD d (posedge clk) (223:223:223))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_ram_pulse_generator")
+    (INSTANCE inst\|Configer_Inst\|Analog_ROM\|altsyncram_component\|auto_generated\|ram_block1a4.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1:1:1) (1:1:1))
+        (IOPATH (posedge clk) pulse (0:0:0) (2796:2796:2796))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_ram_register")
+    (INSTANCE inst\|Configer_Inst\|Analog_ROM\|altsyncram_component\|auto_generated\|ram_block1a4.dataout_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (936:936:936) (960:960:960))
+        (IOPATH (posedge clk) q (351:351:351) (351:351:351))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (59:59:59))
+      (HOLD d (posedge clk) (188:188:188))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_ram_pulse_generator")
+    (INSTANCE inst\|Configer_Inst\|Analog_ROM\|altsyncram_component\|auto_generated\|ram_block1a4.rpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1:1:1) (1:1:1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_ram_pulse_generator")
+    (INSTANCE inst\|Configer_Inst\|Analog_ROM\|altsyncram_component\|auto_generated\|ram_block1a4.ftpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1:1:1) (1:1:1))
+        (IOPATH (posedge clk) pulse (0:0:0) (3098:3098:3098))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_ram_pulse_generator")
+    (INSTANCE inst\|Configer_Inst\|Analog_ROM\|altsyncram_component\|auto_generated\|ram_block1a4.rwpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1:1:1) (1:1:1))
+        (IOPATH (posedge clk) pulse (0:0:0) (3098:3098:3098))
+      )
+    )
+  )
+)
